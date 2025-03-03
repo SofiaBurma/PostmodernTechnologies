@@ -1,12 +1,4 @@
-def get_addition(a, b):
-    return a + b
-
-def get_subtraction(a, b):
-    return a - b
-
-def get_multiplication(a, b):
-    return a * b
-
+from funcs import get_addition, get_subtraction, get_multiplication
 def test_get_addition():
     result = get_addition(3, 2)
     assert result == 5
